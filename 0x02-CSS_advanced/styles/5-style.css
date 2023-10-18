@@ -32,7 +32,7 @@ a {
     color: var(--color-primary);
 }
 
-/* Root element custom properties definition (reusable variables definition) and Variables for storing certain font types */
+/* Root element custom properties definition (reusable variables definition) and Variables for storing certain font types, sizes */
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
