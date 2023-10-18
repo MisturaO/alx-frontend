@@ -464,6 +464,7 @@ a:active { /* Targests links in active i.e. while the user is clicking on the li
 
 .section-footer {
   padding: var(--section-footer-padding);
+  text-align: var(--section-footer-align);
 }
 
 .section-title {
