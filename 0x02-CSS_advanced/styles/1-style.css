@@ -1,0 +1,5 @@
+/* When scrolling is triggered on the html element itself,the behavior of the scroll should be as fluid as possible.*/
+
+html {
+    scroll-behavior: smooth;
+}
