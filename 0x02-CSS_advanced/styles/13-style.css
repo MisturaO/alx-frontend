@@ -53,20 +53,20 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
-a:not(:empty) {
+a:link { /*styles unvisited links */
     color: var(--text-color);
     text-decoration: none;
 }
 
-a:visited {
+a:visited {  /*styles visited links */
     font-style: italic;
 }
 
-a:hover {
+a:hover {  /*styles links being hovered on*/
     text-decoration: underline;
 }
 
-a:active {
+a:active { /* Targests links in active i.e. while the user is clicking on the link */
     background-color: var(--color-light-grey);
 }
 
