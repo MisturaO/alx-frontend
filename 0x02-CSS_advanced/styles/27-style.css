@@ -643,7 +643,7 @@ a:active { /* Targests links in active state i.e. while the user is clicking on 
 
 /*SECTION HERO STYLE */
 .section-hero {
-  background-size: auto 90rem; /*Sets the size of the background using 2-value syntax(for height and width respectively*/
+  background-size: 90rem auto; /*Sets the size of the background using 2-value syntax(for width and height respectively*/
 }
 
 .section-hero .section-title {
