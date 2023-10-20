@@ -578,7 +578,7 @@ a:active { /* Targests links in active i.e. while the user is clicking on the li
   color: var(--text-color);
 }
 
-.social-link, .social-link svg {
+.social-link, .social-link > svg {
   display: block;
   fill: var(--text-color);
 }
