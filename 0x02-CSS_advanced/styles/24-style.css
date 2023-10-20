@@ -587,13 +587,13 @@ a:active { /* Targests links in active i.e. while the user is clicking on the li
   margin: 0;
 }
 
-.card-services > card-title > a {
+.card-services a {
   display: block;
-  padding: 125rem;
+  padding: 2rem;
   background-color: var(--color-light-grey);
 }
 
-.card-services > card-title > a:hover {
+.card-services a:hover {
   color: var(--color-white);
   background-color: var(--color-primary);
   text-decoration: none;
