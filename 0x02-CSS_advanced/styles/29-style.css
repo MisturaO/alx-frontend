@@ -569,8 +569,8 @@ a:active { /* Targests links in active state i.e. while the user is clicking on 
  .nav .nav-link::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 0; /* Alligns the pseudo-element vertically */
+  left: 0; /* Alligns the pseudo-element horizontally */
   background-color: var(--color-white);
   width: 0;
   height: 0.2rem;
