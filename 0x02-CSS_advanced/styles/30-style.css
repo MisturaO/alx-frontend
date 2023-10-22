@@ -670,7 +670,7 @@ a:active { /* Targests links in active state i.e. while the user is clicking on 
   overflow: hidden;
 }
 
-.card-work .card-image {
+.card-work .card-image img{
   height: 30rem;
   width: 100%;
   object-fit: cover;
