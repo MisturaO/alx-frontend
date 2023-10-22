@@ -665,12 +665,12 @@ a:active { /* Targests links in active state i.e. while the user is clicking on 
 }
 
 /* Fix the works section */
-.card-work .card-outer {
+.card-work .card-outer { /* hides overflowing image inside it's own container, so it won't flow out of it to it's parennt cotainer(Here the parent conatiner it from flowing into it) */
   position: relative;
   overflow: hidden;
 }
 
-.card-work .card-image img{
+.card-work .card-image img{ /* Set a size for the overflowing image */
   height: 30rem;
   width: 100%;
   object-fit: cover;
