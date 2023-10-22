@@ -566,6 +566,21 @@ a:active { /* Targests links in active state i.e. while the user is clicking on 
   color: var(--nav-item-link-hover);
  }
 
+ nav .nav-link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 0;
+  height: 0.125rem;
+}
+
+nav .nav-item:hover .nav-link::before {
+  background-color: var(--color-primary);
+  width: 100%;
+}
+
  ul.row {
   margin: 0;
   padding: 0;
@@ -676,19 +691,4 @@ a:active { /* Targests links in active state i.e. while the user is clicking on 
   position: var(--header-logo-link-position);
   top: var(--header-logo-link-top); /* To set vertical position of an element */
   left: var(--header-logo-link-left); /* To set horizontal position of an element */
-}
-
-nav .nav-link::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: var(--color-white);
-  width: 0;
-  height: 20rem;
-}
-
-nav .nav-item:hover .nav-link::before {
-  background-color: var(--color-primary);
-  width: 100%;
 }
