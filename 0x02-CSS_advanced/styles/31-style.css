@@ -750,7 +750,7 @@ a:active { /* Targests links in active state i.e. while the user is clicking on 
 }
 
 .card-testimonial .card-quote::before {
-  content: \201C;
+  content: "\201C";
   position: absolute;
   top: -4.5rem;
   left: -1rem;
