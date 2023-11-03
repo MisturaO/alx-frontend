@@ -35,7 +35,7 @@ a {
 }
 
 /* Root element custom properties definition (reusable variables definition) and Variables for storing 
-certain font types, font sizes, font weight */
+certain font types, font sizes, font weight, added google font to ffont list first choice */
 :root {
     --color-primary: #d73953;
     --color-black: #090909;

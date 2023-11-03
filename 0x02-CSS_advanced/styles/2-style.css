@@ -4,6 +4,7 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Set foreground color value and display values */
 body {
     color: #161616;
 }
