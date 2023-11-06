@@ -461,7 +461,7 @@
       text-align:center;
     }
     .social.nav li + li, /* To easily add a left padding starting on the second <li>, for spacing in inbetween the items/text */
-    .footer-nav li +li {
+    .footer-nav li + li {
       padding-left: 2rem;
     }
   }
